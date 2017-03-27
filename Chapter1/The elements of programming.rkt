@@ -94,7 +94,7 @@
 
 ; Then he evaluates the expression
 
-(test 1 (p))
+; (test 1 (p))
 
 ; What behavior will Ben observe with an interpreter that uses
 ; applicative-order evaluation? What behavior
@@ -124,3 +124,39 @@
 ; ; (test 0 ((p)))
 
 ; and it will not stop
+
+; 1.1.8Procedures as Black-Box Abstractions
+
+
+(define (good-enough? guess x)
+  (< (abs (- (square guess) x)) 0.001)) ; Small enough to be within the small tollerance
+
+(define (sqrt x) 
+  (sqrt-iter 1.0 x))
+
+; Guest 1.0 is the answer and if not good enough do:
+; sqrt-iter ((guest + x/guess) / 2) x)
+(define (sqrt-iter guess x)
+  (if (good-enough? guess x)
+      guess
+      (sqrt-iter (improve guess x) x)))
+
+(define (improve guess x)
+  (average guess (/ x guess)))
+
+(define (average x y)
+  (/ (+ x y) 2))
+
+(sqrt 2) ; 1.4142156862745097
+
+; We can also write
+(define (sqrt2 x)
+  (define (good-enough? guess)
+    (< (abs (- (square guess) x)) 0.001))
+  (define (improve guess)
+    (average guess (/ x guess)))
+  (define (sqrt-iter guess)
+    (if (good-enough? guess)
+        guess
+        (sqrt-iter (improve guess))))
+  (sqrt-iter 1.0))
