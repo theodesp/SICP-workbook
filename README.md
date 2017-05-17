@@ -52,8 +52,9 @@ All the workbooks are divided by chapters one on each folder.
     - [x] : Exercise 1.43 Repeated Func
     - [x] : Exercise 1.46 Iterative improvement Func
     
-    
 - [ ] **Chapter 2**: Building Abstractions with Data
+    - [x] : Exercise 2.1 Better version of make-rat
+    
 - [ ] **Chapter 3**: Modularity, Objects, and State
 - [ ] **Chapter 4**: Metalinguistic Abstraction
 - [ ] **Chapter 5**: Computing with Register Machines
