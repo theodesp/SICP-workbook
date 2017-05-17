@@ -54,6 +54,7 @@ All the workbooks are divided by chapters one on each folder.
     
 - [ ] **Chapter 2**: Building Abstractions with Data
     - [x] : Exercise 2.1 Better version of make-rat
+	- [x] : Exercise 2.2 Provide make-segment
     
 - [ ] **Chapter 3**: Modularity, Objects, and State
 - [ ] **Chapter 4**: Metalinguistic Abstraction
