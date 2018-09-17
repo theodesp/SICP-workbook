@@ -7,9 +7,7 @@
 (define (sum-integers a b)
   (if (> a b)
       0
-      (+ a (sum-integers (+ a 1) b))
-  )
-)
+      (+ a (sum-integers (+ a 1) b))))
 
 ; Calculate Sum n^3 from a to b
 (define (sum-cubes a b)
@@ -144,8 +142,7 @@
     (* (/ (* 2 x) (- (* x 2) 1))
        (/ (* 2 x) (+ (* x 2) 1))))
   
-  (* (product f_x 1 inc limit) 2)
-)
+  (* (product f_x 1 inc limit) 2))
 
 (pi 50)
 
@@ -159,12 +156,11 @@
         result
         (product-iter (next a) (* result a)))
     )
-  (product-iter (term a) 1)
- )
+  (product-iter (term a) 1))
 
 (define (fact2 n)
-  (product2 identity 1 inc n)
-)
+  (product2 identity 1 inc n))
+
 (fact2 5)
 
 ; Exercise 1.32:
@@ -176,18 +172,15 @@
 
 
 (define (accumulate combiner null-value term a next b)
-  (if (> a b) null-value
-      (combiner (term a) (accumulate combiner null-value term (next a) next b))
-  )
-)
+  (if (> a b)
+      null-value
+      (combiner (term a) (accumulate combiner null-value term (next a) next b))))
 
 (define (mul a b)
-  (* a b)
-  )
+  (* a b))
 
 (define (fact3 n)
-  (accumulate mul 1 identity 1 inc n)
-)
+  (accumulate mul 1 identity 1 inc n))
 
 (fact3 5) ; 120
 
@@ -199,16 +192,12 @@
  (define (accumulate-iter a result)
     (if (> a b)
         result
-        (accumulate-iter (next a) (combiner result a))
-    )
-  )
+        (accumulate-iter (next a) (combiner result a))))
   
-  (accumulate-iter (term a) null-value)
-)
+  (accumulate-iter (term a) null-value))
 
 (define (fact4 n)
-  (accumulate2 mul 1 identity 1 inc n)
-)
+  (accumulate2 mul 1 identity 1 inc n))
 
 ; Exercise 1.33: You can obtain an even more general version of accumulate
 ; (Exercise 1.32) by introducing the notion of a filter on the terms to be combined.
@@ -228,10 +217,7 @@
          predicate combiner null-value term a next b)
   (cond ((> a b) null-value)
         ((predicate a) (combiner (term a) (filtered-accumulate predicate combiner null-value term (next a) next b)))
-        (else (filtered-accumulate predicate combiner null-value term (next a) next b))
-  )
-)
-
+        (else (filtered-accumulate predicate combiner null-value term (next a) next b))))
 (define (divides? a b)
   (= (remainder b a) 0))
 
@@ -255,24 +241,21 @@
   (= n (smallest-divisor n)))
 
 (define (add a b)
-  (+ a b)
-  )
+  (+ a b))
 
 (define (gcd a b)
   (cond [(= b 0) a]
         [else (gcd b (modulo a b))]))
 
 (define (sum-prime-squares a b)
-  (filtered-accumulate prime? add 0 square a inc b)
-  )
+  (filtered-accumulate prime? add 0 square a inc b))
 
 (sum-prime-squares 1 100) ;65797
 
 (define (prod-rel-primes a b)
   (define (rel-prime i)
-    (= (gcd b i) 1)
-  )
-  (filtered-accumulate rel-prime mul 1 identity a inc b)
-  )
+    (= (gcd b i) 1))
+ 
+  (filtered-accumulate rel-prime mul 1 identity a inc b))
 
 (prod-rel-primes 1 55) ; 18538430496052184675120915079264902539141956381966336

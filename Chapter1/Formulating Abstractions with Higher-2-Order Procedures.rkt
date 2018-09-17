@@ -46,8 +46,7 @@
   (< (abs (- x y)) 0.001))
 
 (define (average a b)
-  (/ (+ a b) 2)
-  )
+  (/ (+ a b) 2))
 
 (define (search f neg-point pos-point)
   ; Get midpoint
@@ -181,10 +180,7 @@
         (d-value (d k)))
       (if (= k 0)
         0
-        (/ n-value (+ d-value (cont-frac n d (- k 1))))
-        )
-    )
-  )
+        (/ n-value (+ d-value (cont-frac n d (- k 1)))))))
 
 (cont-frac (lambda (i) 1.0)
            (lambda (i) 1.0)
@@ -195,18 +191,14 @@
 
 
 (define (cont-frac2 n d k)
-  (cont-frac-iter n d k 1 (/ (n 1) (d 1)))
-  )
+  (cont-frac-iter n d k 1 (/ (n 1) (d 1))))
 
 (define (cont-frac-iter n d k idx result)
   (let ((n-value (n idx))
         (d-value (d idx)))
       (if (= idx k)
         result
-         (/ n-value (+ d-value (cont-frac-iter n d k (+ idx 1) result)))
-        )
-    )
-  )
+         (/ n-value (+ d-value (cont-frac-iter n d k (+ idx 1) result))))))
 
 (cont-frac2 (lambda (i) 1.0)
            (lambda (i) 1.0)
@@ -225,8 +217,7 @@
              (if (= (- (* 3 i) 1) i)
                            i
                            1.0))
-           n)
-  )
+           n))
 
 (e_2 100)
 
@@ -332,8 +323,7 @@
 
 
 (define (double f)
-  (lambda (x) (f (f x)))
-  )
+  (lambda (x) (f (f x))))
 
 (define (inc x) (+ x 1))
 
@@ -347,8 +337,7 @@
 ; 49
 
 (define (compose f g)
-  (lambda (x) (f (g x)))
-  )
+  (lambda (x) (f (g x))))
 
 ((compose square inc) 6) ; 49
 
@@ -376,9 +365,7 @@
                 (repeat f (f result) (- curr 1))
             )
         )
-     (repeat f x times)
-    )
- )
+     (repeat f x times)))
 
 ((repeated square 1) 5)
 
@@ -398,8 +385,7 @@
       (/ (+ (f (- y dx)) (f y) (f (+ y dx))) 3)
       )
     
-    ((repeated smoother times) x)
-  ))
+    ((repeated smoother times) x)))
 
 ((smoothed inc 5) 5) ; 10.0
 
@@ -421,5 +407,4 @@
                 (improve-iter good-enough? improve-guess (improve-guess x))
             )
         )
-   ((improve-iter good-enough? improve-guess ) x)
-  ))
+   ((improve-iter good-enough? improve-guess ) x)))

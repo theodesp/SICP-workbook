@@ -66,8 +66,7 @@
   (cond ((> a b)
         (cond ((> b c) (+ (* b b) (* c c)))
               (else (+ (* a a) (* c c)))))
-        (else (+ (* b b) (* c c)))
-        ))
+        (else (+ (* b b) (* c c)))))
 
 ; Exercise 1.4: Observe that our model of evaluation allows for
 ; combinations whose operators are compound expressions.
@@ -125,7 +124,7 @@
 
 ; and it will not stop
 
-; 1.1.8Procedures as Black-Box Abstractions
+; 1.1.8 Procedures as Black-Box Abstractions
 
 
 (define (good-enough? guess x)

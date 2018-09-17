@@ -63,13 +63,10 @@
           ((= m 1) y)
           (else 
            (error "Argument not 0 or 1:
-                   CONS" m))))
+                   CONS" m)))))
 
-    )
   ; We return a function dispatch so that when applied to with a
   ; param we get either the first or the second param
 
 (define (car z) (z 0))
 (define (cdr z) (z 1))
-
-

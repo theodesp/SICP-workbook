@@ -1,1 +1,0 @@
-("6.8" ("f9daaf8b9b645fa8add35e6bc34558537fc3cf15" . "4daff644f9045316ac3e5ff950b27205570d3e61") #"/Users/theo.despoudis/Projects/SICP-workbook/Chapter 2/commons.rkt" (collects #"errortrace" #"errortrace-key.rkt") (collects #"racket" #"main.rkt") (collects #"racket" #"runtime-config.rkt"))

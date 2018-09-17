@@ -93,8 +93,7 @@
 
 (define (ff n)
   (cond ((< n 3) n)
-        (else (+ (ff (- n 1)) (* 2 (ff (- n 2))) (* 3 (ff (- n 3)))))
-        ))
+        (else (+ (ff (- n 1)) (* 2 (ff (- n 2))) (* 3 (ff (- n 3)))))))
 
 (ff 4) ; 59
 
@@ -359,8 +358,7 @@
          (search-for-primes (+ n 1) (- amount 1)))
         (else
          (search-for-primes (+ n 1) amount)
-         ))
-  )
+         )))
 
 ; Exercise 1.23: define a procedure next that returns 3
 ; if its input is equal to 2 and otherwise returns its input plus 2.
@@ -370,9 +368,7 @@
 (define (next n)
   (cond ((= n 2)
          3)
-        (else (+ n 2))
-        )
-  )
+        (else (+ n 2))))
 
 ; Exercise 1.26:By writing the procedure like that,
 ; you have transformed
@@ -411,8 +407,7 @@
   (cond ((= curr number) #t)
         ((= (expmod curr number number) curr)
          (is-congruent-iter number (+ curr 1)))
-        (else #f))
-  )
+        (else #f)))
 
 (is-congruent 561) ; true!
 
