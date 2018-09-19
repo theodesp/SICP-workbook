@@ -13,37 +13,29 @@
 
 
 (define (make-point x y)
-  (cons x y)
-  )
+  (cons x y))
 
 (define (x-point point)
-  (car point)
-  )
+  (car point))
 
 (define (y-point point)
-  (cdr point)
-  )
+  (cdr point))
 
 (define (make-segment a1 b1 a2 b2)
-  (cons (make-point a1 b1) (make-point a2 b2))
-  )
+  (cons (make-point a1 b1) (make-point a2 b2)))
 
 (define (start-segment segment)
-  (car segment)
-  )
+  (car segment))
 
 (define (end-segment segment)
-  (cdr segment)
-  )
+  (cdr segment))
 
 (define (mid-segment segment)
   (let ((mid-x (make-point
                 (/ (+ (x-point (start-segment segment))) 2)
                 (/ (+ (y-point (end-segment segment))) 2)
                 )))
-    mid-x
-  )
-)
+    mid-x))
 
 (define (print-point p)
   (display "(")
