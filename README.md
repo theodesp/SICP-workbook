@@ -65,6 +65,8 @@ All the workbooks are divided by chapters one on each folder.
     - [x] : Exercise 2.11 Mul interval fast
     - [x] : Exercise 2.12 Percent
     - [x] : Exercise 2.14 Invalid computations
+	- [x] : Exercise 2.17 Last pair
+	- [x] : Exercise 2.18 List reverse
 
     
 - [ ] **Chapter 3**: Modularity, Objects, and State
