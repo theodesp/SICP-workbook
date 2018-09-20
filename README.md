@@ -57,6 +57,7 @@ All the workbooks are divided by chapters one on each folder.
     - [x] : Exercise 2.2 Provide make-segment 
     - [x] : Exercise 2.4 Cdr alternative
     - [x] : Exercise 2.5 Cons/Car/Cdr with exp numbers
+	- [x] : Exercise 2.6 Church Numbers
     
 - [ ] **Chapter 3**: Modularity, Objects, and State
 - [ ] **Chapter 4**: Metalinguistic Abstraction
