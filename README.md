@@ -67,7 +67,16 @@ All the workbooks are divided by chapters one on each folder.
     - [x] : Exercise 2.14 Invalid computations
 	- [x] : Exercise 2.17 Last pair
 	- [x] : Exercise 2.18 List reverse
-
+    - [x] : Exercise 2.19 Locale Coins
+    - [x] : Exercise 2.20 Same Parity
+	- [x] : Exercise 2.21 Square-list
+	- [x] : Exercise 2.22 Square-list issue
+	- [x] : Exercise 2.23 for-each
+	- [x] : Exercise 2.24 List tree evaluation
+	- [x] : Exercise 2.25 Car/cdrs
+	- [x] : Exercise 2.26 Evaluate list/append/cons
+	- [x] : Exercise 2.28 deep-reverse
+	- [x] : Exercise 2.29 total-weight of mobile tree
     
 - [ ] **Chapter 3**: Modularity, Objects, and State
 - [ ] **Chapter 4**: Metalinguistic Abstraction
