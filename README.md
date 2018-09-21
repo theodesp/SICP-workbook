@@ -77,6 +77,9 @@ All the workbooks are divided by chapters one on each folder.
 	- [x] : Exercise 2.26 Evaluate list/append/cons
 	- [x] : Exercise 2.28 deep-reverse
 	- [x] : Exercise 2.29 total-weight of mobile tree
+	- [x] : Exercise 2.30 square-map
+	- [x] : Exercise 2.31 tree-map
+	- [x] : Exercise 2.32 subsets
     
 - [ ] **Chapter 3**: Modularity, Objects, and State
 - [ ] **Chapter 4**: Metalinguistic Abstraction
