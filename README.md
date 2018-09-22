@@ -80,6 +80,7 @@ All the workbooks are divided by chapters one on each folder.
 	- [x] : Exercise 2.30 square-map
 	- [x] : Exercise 2.31 tree-map
 	- [x] : Exercise 2.32 subsets
+	- [x] : Exercise 2.33 map, length, append
     
 - [ ] **Chapter 3**: Modularity, Objects, and State
 - [ ] **Chapter 4**: Metalinguistic Abstraction
