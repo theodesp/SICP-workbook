@@ -83,6 +83,7 @@ All the workbooks are divided by chapters one on each folder.
 	- [x] : Exercise 2.33 map, length, append
 	- [x] : Exercise 2.34 Horner
 	- [x] : Exercise 2.35 count-leaves2
+	- [x] : Exercise 2.36 Acuumulate-n
     
 - [ ] **Chapter 3**: Modularity, Objects, and State
 - [ ] **Chapter 4**: Metalinguistic Abstraction
