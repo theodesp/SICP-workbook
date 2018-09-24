@@ -92,6 +92,7 @@ All the workbooks are divided by chapters one on each folder.
 	- [x] : Exercise 2.42 queens
 	- [x] : Exercise 2.53 evaluating expressions
 	- [x] : Exercise 2.54 Equal?
+	- [x] : Exercise 2.55 quote
     
 - [ ] **Chapter 3**: Modularity, Objects, and State
 - [ ] **Chapter 4**: Metalinguistic Abstraction
