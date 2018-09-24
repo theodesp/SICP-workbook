@@ -89,6 +89,7 @@ All the workbooks are divided by chapters one on each folder.
 	- [x] : Exercise 2.39 2 way reverse
 	- [x] : Exercise 2.40 Unique pairs
 	- [x] : Exercise 2.41 sum-triplets
+	- [x] : Exercise 2.42 queens
     
 - [ ] **Chapter 3**: Modularity, Objects, and State
 - [ ] **Chapter 4**: Metalinguistic Abstraction
