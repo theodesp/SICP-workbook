@@ -87,7 +87,8 @@ All the workbooks are divided by chapters one on each folder.
 	- [x] : Exercise 2.37 Matrix ops
 	- [x] : Exercise 2.38 Fold-left
 	- [x] : Exercise 2.39 2 way reverse
-	- [x] : Exercise 2.40  Unique pairs
+	- [x] : Exercise 2.40 Unique pairs
+	- [x] : Exercise 2.41 sum-triplets
     
 - [ ] **Chapter 3**: Modularity, Objects, and State
 - [ ] **Chapter 4**: Metalinguistic Abstraction
