@@ -96,6 +96,7 @@ All the workbooks are divided by chapters one on each folder.
 	- [x] : Exercise 2.56 Differential exponentiation 
 	- [x] : Exercise 2.58 Infix differential ops
 	- [x] : Exercise 2.59 Union Set
+	- [x] : Exercise 2.60 With duplicates Set
     
 - [ ] **Chapter 3**: Modularity, Objects, and State
 - [ ] **Chapter 4**: Metalinguistic Abstraction
