@@ -94,7 +94,8 @@ All the workbooks are divided by chapters one on each folder.
 	- [x] : Exercise 2.54 Equal?
 	- [x] : Exercise 2.55 quote
 	- [x] : Exercise 2.56 Differential exponentiation 
-	- [x] : Exercise 2.58 Infix differential ops 
+	- [x] : Exercise 2.58 Infix differential ops
+	- [x] : Exercise 2.59 Union Set
     
 - [ ] **Chapter 3**: Modularity, Objects, and State
 - [ ] **Chapter 4**: Metalinguistic Abstraction
