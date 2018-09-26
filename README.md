@@ -99,6 +99,7 @@ All the workbooks are divided by chapters one on each folder.
 	- [x] : Exercise 2.60 With duplicates Set
 	- [x] : Exercise 2.61 Adjoin Ordered Set
 	- [x] : Exercise 2.62 Union Ordered Set
+	- [x] : Exercise 2.63 tree->list
     
 - [ ] **Chapter 3**: Modularity, Objects, and State
 - [ ] **Chapter 4**: Metalinguistic Abstraction
