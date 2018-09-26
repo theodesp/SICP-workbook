@@ -101,6 +101,7 @@ All the workbooks are divided by chapters one on each folder.
 	- [x] : Exercise 2.62 Union Ordered Set
 	- [x] : Exercise 2.63 tree->list
 	- [x] : Exercise 2.64 list->tree
+	- [x] : Exercise 2.65 lookup in tree
     
 - [ ] **Chapter 3**: Modularity, Objects, and State
 - [ ] **Chapter 4**: Metalinguistic Abstraction
