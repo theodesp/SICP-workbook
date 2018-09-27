@@ -104,6 +104,8 @@ All the workbooks are divided by chapters one on each folder.
 	- [x] : Exercise 2.65 lookup in tree
 	- [x] : Exercise 2.67 Decode sample
 	- [x] : Exercise 2.68 Encode-symbol huffman
+	- [x] : Exercise 2.69 Merge leaf pairs
+	- [x] : Exercise 2.70 Encoding examples
     
 - [ ] **Chapter 3**: Modularity, Objects, and State
 - [ ] **Chapter 4**: Metalinguistic Abstraction
