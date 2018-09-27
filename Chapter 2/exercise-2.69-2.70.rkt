@@ -112,3 +112,5 @@
          (else (encode-symbol-helper symbol (right-branch branch) (append curr '(1))))))
 
 (provide encode generate-huffman-tree)
+
+(generate-huffman-tree '((A 1) (B  2) (C 3) (D  4) (E  5) (F  6)))
