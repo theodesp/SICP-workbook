@@ -107,6 +107,7 @@ All the workbooks are divided by chapters one on each folder.
 	- [x] : Exercise 2.69 Merge leaf pairs
 	- [x] : Exercise 2.70 Encoding examples
 	- [x] : Exercise 2.71 Huffman tree
+	- [x] : Exercise 2.72 Huffman complexoty
     
 - [ ] **Chapter 3**: Modularity, Objects, and State
 - [ ] **Chapter 4**: Metalinguistic Abstraction
