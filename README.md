@@ -112,6 +112,7 @@ All the workbooks are divided by chapters one on each folder.
 	- [x] : Exercise 2.76 Find Appopriate ways to add new types
 	- [x] : Exercise 2.77 Trace magnitude
 	- [x] : Exercise 2.78 Do not tag buildin numbers
+	- [x] : Exercise 2.79 Add equ?
     
 - [ ] **Chapter 3**: Modularity, Objects, and State
 - [ ] **Chapter 4**: Metalinguistic Abstraction
