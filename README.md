@@ -109,6 +109,8 @@ All the workbooks are divided by chapters one on each folder.
 	- [x] : Exercise 2.71 Huffman tree
 	- [x] : Exercise 2.72 Huffman complexity
 	- [x] : Exercise 2.75 Make from Mag Ang
+	- [x] : Exercise 2.76 Find Appopriate ways to add new types
+	- [x] : Exercise 2.77 Trace magnitude
     
 - [ ] **Chapter 3**: Modularity, Objects, and State
 - [ ] **Chapter 4**: Metalinguistic Abstraction
